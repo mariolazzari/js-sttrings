@@ -76,3 +76,11 @@ function splitEmails(emailList) {
     .map(email => email.trim());
 }
 ```
+
+## Slice your account number display
+
+```js
+function getAccountNumberLastFour(accountNumber) {
+  return accountNumber.toString().slice(-4);
+}
+```
