@@ -43,3 +43,11 @@ function transformCityToLowerCase(city) {
   return city.toString().toLowerCase();
 }
 ```
+
+### Display a page heading in uppercase
+
+```js
+function transformPageHeading(heading) {
+  return heading.toString().toUpperCase();
+}
+```
