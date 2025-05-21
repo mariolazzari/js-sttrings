@@ -65,3 +65,14 @@ function hasFun(message) {
   return negative.toUpperCase();
 }
 ```
+
+## Split your email list
+
+```js
+function splitEmails(emailList) {
+  return emailList
+    .toString()
+    .split(",")
+    .map(email => email.trim());
+}
+```
