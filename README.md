@@ -51,3 +51,17 @@ function transformPageHeading(heading) {
   return heading.toString().toUpperCase();
 }
 ```
+
+### Does the message include "fun"?
+
+```js
+const positive = "positive";
+const negative = "negative";
+
+function hasFun(message) {
+  if (message.toString().includes("fun")) {
+    return positive.toUpperCase();
+  }
+  return negative.toUpperCase();
+}
+```
