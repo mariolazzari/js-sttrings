@@ -84,3 +84,13 @@ function getAccountNumberLastFour(accountNumber) {
   return accountNumber.toString().slice(-4);
 }
 ```
+
+## Replace the typo
+
+```js
+function fixTypo(emailList) {
+  return emailList
+    .split(", ")
+    .map(mail => mail.replace("@pgn.com", "@atn.com"));
+}
+```
