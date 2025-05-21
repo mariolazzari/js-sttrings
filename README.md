@@ -13,3 +13,11 @@ function findPasswordLength(password) {
   return success;
 }
 ```
+
+## Trim a user's new password
+
+```js
+function trimPasswordString(generatedPassword) {
+  return generatedPassword.toString().trim();
+}
+```
