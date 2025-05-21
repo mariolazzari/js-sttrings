@@ -94,3 +94,11 @@ function fixTypo(emailList) {
     .map(mail => mail.replace("@pgn.com", "@atn.com"));
 }
 ```
+
+## Concat first and last name
+
+```js
+function combineFirstAndLast(firstName, lastName) {
+  return `${firstName.trim()} ${lastName.trim()}`;
+}
+```
