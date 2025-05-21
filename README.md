@@ -35,3 +35,11 @@ function isPhoneNumberValid(phoneNumber) {
   return invalid;
 }
 ```
+
+### Transform user input to lowercase
+
+```js
+function transformCityToLowerCase(city) {
+  return city.toString().toLowerCase();
+}
+```
